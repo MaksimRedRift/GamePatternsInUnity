@@ -57,6 +57,8 @@
      <Compile Include="Assets\Design patterns\Command\ICommand.cs" />
      <Compile Include="Assets\Design patterns\Command\Commands\JumpCommand.cs" />
      <Compile Include="Assets\Design patterns\Command\InputHandler.cs" />
+     <Compile Include="Assets\Design patterns\Flyweight\Alien.cs" />
+     <Compile Include="Assets\Design patterns\Flyweight\Flyweight.cs" />
  <Reference Include="UnityEngine">
  <HintPath>N:/programms/ForProgramming/2020.1.0f1/2020.3.25f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
@@ -662,6 +664,18 @@
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>N:/Eliott_Alderson/study/Patterns/GamePatternsInUnity/Game Patterns/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.EditorCoroutines.Editor">
+ <HintPath>N:/Eliott_Alderson/study/Patterns/GamePatternsInUnity/Game Patterns/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.MemoryProfiler.Editor">
+ <HintPath>N:/Eliott_Alderson/study/Patterns/GamePatternsInUnity/Game Patterns/Library/ScriptAssemblies/Unity.MemoryProfiler.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.MemoryProfiler">
+ <HintPath>N:/Eliott_Alderson/study/Patterns/GamePatternsInUnity/Game Patterns/Library/ScriptAssemblies/Unity.MemoryProfiler.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.MemoryProfiler.Editor.MemoryProfilerModule">
+ <HintPath>N:/Eliott_Alderson/study/Patterns/GamePatternsInUnity/Game Patterns/Library/ScriptAssemblies/Unity.MemoryProfiler.Editor.MemoryProfilerModule.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
