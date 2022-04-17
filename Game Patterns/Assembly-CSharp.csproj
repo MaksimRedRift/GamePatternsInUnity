@@ -55,10 +55,18 @@
      <Compile Include="Assets\Design patterns\Command\Commands\FireCommand.cs" />
      <Compile Include="Assets\Design patterns\Command\Command.cs" />
      <Compile Include="Assets\Design patterns\Command\ICommand.cs" />
+     <Compile Include="Assets\Design patterns\Flyweight\Flyweight.cs" />
+     <Compile Include="Assets\Design patterns\Flyweight\Alien.cs" />
      <Compile Include="Assets\Design patterns\Command\Commands\JumpCommand.cs" />
      <Compile Include="Assets\Design patterns\Command\InputHandler.cs" />
-     <Compile Include="Assets\Design patterns\Flyweight\Alien.cs" />
-     <Compile Include="Assets\Design patterns\Flyweight\Flyweight.cs" />
+     <Compile Include="Assets\Design patterns\Observer\GameController.cs" />
+     <Compile Include="Assets\Design patterns\Observer\Events\BoxEvents.cs" />
+     <Compile Include="Assets\Design patterns\Observer\Events\JumpLittle.cs" />
+     <Compile Include="Assets\Design patterns\Observer\Events\JumpMedium.cs" />
+     <Compile Include="Assets\Design patterns\Observer\Events\JumpHigh.cs" />
+     <Compile Include="Assets\Design patterns\Observer\Subject.cs" />
+     <Compile Include="Assets\Design patterns\Observer\Observer.cs" />
+     <Compile Include="Assets\Design patterns\Observer\Box.cs" />
  <Reference Include="UnityEngine">
  <HintPath>N:/programms/ForProgramming/2020.1.0f1/2020.3.25f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
@@ -635,6 +643,9 @@
  <Reference Include="System.Xml.Serialization">
  <HintPath>N:/programms/ForProgramming/2020.1.0f1/2020.3.25f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.MemoryProfiler">
+ <HintPath>N:/Eliott_Alderson/study/Patterns/GamePatternsInUnity/Game Patterns/Library/ScriptAssemblies/Unity.MemoryProfiler.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>N:/Eliott_Alderson/study/Patterns/GamePatternsInUnity/Game Patterns/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
@@ -653,6 +664,12 @@
  <Reference Include="Unity.TextMeshPro">
  <HintPath>N:/Eliott_Alderson/study/Patterns/GamePatternsInUnity/Game Patterns/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.MemoryProfiler.Editor">
+ <HintPath>N:/Eliott_Alderson/study/Patterns/GamePatternsInUnity/Game Patterns/Library/ScriptAssemblies/Unity.MemoryProfiler.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.MemoryProfiler.Editor.MemoryProfilerModule">
+ <HintPath>N:/Eliott_Alderson/study/Patterns/GamePatternsInUnity/Game Patterns/Library/ScriptAssemblies/Unity.MemoryProfiler.Editor.MemoryProfilerModule.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>N:/Eliott_Alderson/study/Patterns/GamePatternsInUnity/Game Patterns/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
@@ -667,15 +684,6 @@
  </Reference>
  <Reference Include="Unity.EditorCoroutines.Editor">
  <HintPath>N:/Eliott_Alderson/study/Patterns/GamePatternsInUnity/Game Patterns/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.MemoryProfiler.Editor">
- <HintPath>N:/Eliott_Alderson/study/Patterns/GamePatternsInUnity/Game Patterns/Library/ScriptAssemblies/Unity.MemoryProfiler.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.MemoryProfiler">
- <HintPath>N:/Eliott_Alderson/study/Patterns/GamePatternsInUnity/Game Patterns/Library/ScriptAssemblies/Unity.MemoryProfiler.dll</HintPath>
- </Reference>
- <Reference Include="Unity.MemoryProfiler.Editor.MemoryProfilerModule">
- <HintPath>N:/Eliott_Alderson/study/Patterns/GamePatternsInUnity/Game Patterns/Library/ScriptAssemblies/Unity.MemoryProfiler.Editor.MemoryProfilerModule.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
