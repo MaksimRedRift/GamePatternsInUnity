@@ -1,4 +1,3 @@
-
 namespace Design_patterns.Command
 {
     public class Command : ICommand
