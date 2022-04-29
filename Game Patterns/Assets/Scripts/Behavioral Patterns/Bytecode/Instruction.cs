@@ -1,0 +1,23 @@
+namespace Behavioral_Patterns.Bytecode
+{
+    /// <summary>
+    /// These are the instrusctions we can choose from in our programming language.
+    /// </summary>
+    public enum Instruction
+    {
+        //Write stats
+        INST_SET_HEALTH,
+        INST_SET_WISDOM,
+        INST_SET_AGILITY,
+        INST_PLAY_SOUND,
+        INST_SPAWN_PARTICLES,
+        //So we can use parameters
+        INST_LITERAL,
+        //Read stats
+        INST_GET_HEALTH,
+        INST_GET_WISDOM,
+        INST_GET_AGILITY,
+        //Arithmetic
+        INST_ADD
+    }
+}
