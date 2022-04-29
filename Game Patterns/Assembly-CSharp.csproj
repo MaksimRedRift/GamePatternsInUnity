@@ -52,6 +52,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Sequencing Patterns\Game_Loop\IUpdateable.cs" />
      <Compile Include="Assets\Scripts\Design patterns\State\BaseState.cs" />
      <Compile Include="Assets\Scripts\Design patterns\State\States\NotOilState.cs" />
      <Compile Include="Assets\Scripts\Design patterns\Observer\Events\BoxEvents.cs" />
@@ -74,13 +75,16 @@
      <Compile Include="Assets\Scripts\Design patterns\Observer\GameController.cs" />
      <Compile Include="Assets\Scripts\Design patterns\Prototype\ClientPrototype.cs" />
      <Compile Include="Assets\Scripts\Design patterns\State\StationBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Sequencing Patterns\Game_Loop\UpdateableComponent.cs" />
      <Compile Include="Assets\Scripts\Design patterns\Command\InputHandler.cs" />
+     <Compile Include="Assets\Scripts\Sequencing Patterns\Double_Buffer\Cave\GameController.cs" />
      <Compile Include="Assets\Scripts\Design patterns\Observer\Events\JumpHigh.cs" />
      <Compile Include="Assets\Scripts\Design patterns\Prototype\Monsters\Ghost.cs" />
      <Compile Include="Assets\Scripts\Design patterns\Prototype\ICopyable.cs" />
      <Compile Include="Assets\Scripts\Design patterns\Observer\Events\JumpMedium.cs" />
      <Compile Include="Assets\Scripts\Design patterns\State\Player.cs" />
-     <Compile Include="Assets\Scripts\Sequencing Patterns\Double_Buffer\Cave\GameController.cs" />
+     <Compile Include="Assets\Scripts\Sequencing Patterns\Game_Loop\GameController.cs" />
+     <Compile Include="Assets\Scripts\Sequencing Patterns\Game_Loop\ObjectWithCustomUpdateMethod.cs" />
  <Reference Include="UnityEngine">
  <HintPath>N:/programms/ForProgramming/2020.1.0f1/2020.3.25f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>

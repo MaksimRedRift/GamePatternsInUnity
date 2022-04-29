@@ -33,7 +33,7 @@ namespace Sequencing_Patterns.Double_Buffer.Cave
             _bufferNew = new int[GridSize, GridSize];
 
             //To get the same random numbers each time we run the script
-            Random.InitState(100);
+            Random.InitState(199);
 
             //Init the old values so we can calculate the new values
             for (var x = 0; x < GridSize; x++)
@@ -119,9 +119,9 @@ namespace Sequencing_Patterns.Double_Buffer.Cave
         //Given a cell, how many of the 8 surrounding cells are walls?
         private int GetSurroundingWallCount(int cellX, int cellY)
         {
-            int wallCounter = 0;
+            var wallCounter = 0;
 
-            for (int neighborX = cellX - 1; neighborX <= cellX + 1; neighborX ++)
+            for (var neighborX = cellX - 1; neighborX <= cellX + 1; neighborX ++)
             {
                 for (int neighborY = cellY - 1; neighborY <= cellY + 1; neighborY++)
                 {
@@ -156,11 +156,12 @@ namespace Sequencing_Patterns.Double_Buffer.Cave
             //Or reuse the same texture
             
             //These two arrays are always the same so we could init them once at start
-            var texture = new Texture2D(GridSize, GridSize);
+            var texture = new Texture2D(GridSize, GridSize)
+            {
+                filterMode = FilterMode.Point
+            };
 
-            texture.filterMode = FilterMode.Point;
-
-            Color[] textureColors = new Color[GridSize * GridSize];
+            var textureColors = new Color[GridSize * GridSize];
 
             for (int y = 0; y < GridSize; y++)
             {
