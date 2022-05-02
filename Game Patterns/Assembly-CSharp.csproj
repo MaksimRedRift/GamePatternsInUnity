@@ -62,8 +62,11 @@
      <Compile Include="Assets\Scripts\Design patterns\State\States\HasOilState.cs" />
      <Compile Include="Assets\Scripts\Design patterns\Prototype\EnemySpawner.cs" />
      <Compile Include="Assets\Scripts\Design patterns\Prototype\Enemy.cs" />
+     <Compile Include="Assets\Scripts\Behavioral Patterns\Bytecode\VM.cs" />
      <Compile Include="Assets\Scripts\Design patterns\Observer\Observer.cs" />
+     <Compile Include="Assets\Scripts\Behavioral Patterns\Bytecode\GameController.cs" />
      <Compile Include="Assets\Scripts\Design patterns\Command\Commands\FireCommand.cs" />
+     <Compile Include="Assets\Scripts\Behavioral Patterns\Bytecode\Instruction.cs" />
      <Compile Include="Assets\Scripts\Design patterns\Command\Command.cs" />
      <Compile Include="Assets\Scripts\Design patterns\Command\ICommand.cs" />
      <Compile Include="Assets\Scripts\Design patterns\Flyweight\Flyweight.cs" />
@@ -85,9 +88,9 @@
      <Compile Include="Assets\Scripts\Design patterns\State\Player.cs" />
      <Compile Include="Assets\Scripts\Sequencing Patterns\Game_Loop\GameController.cs" />
      <Compile Include="Assets\Scripts\Sequencing Patterns\Game_Loop\ObjectWithCustomUpdateMethod.cs" />
-     <Compile Include="Assets\Scripts\Behavioral Patterns\Bytecode\GameController.cs" />
-     <Compile Include="Assets\Scripts\Behavioral Patterns\Bytecode\Instruction.cs" />
-     <Compile Include="Assets\Scripts\Behavioral Patterns\Bytecode\VM.cs" />
+     <Compile Include="Assets\Scripts\Behavioral Patterns\Subclass_Sandbox\GameController.cs" />
+     <Compile Include="Assets\Scripts\Behavioral Patterns\Subclass_Sandbox\Superpower.cs" />
+     <Compile Include="Assets\Scripts\Behavioral Patterns\Subclass_Sandbox\SkyLaunch.cs" />
  <Reference Include="UnityEngine">
  <HintPath>N:/programms/ForProgramming/2020.1.0f1/2020.3.25f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
