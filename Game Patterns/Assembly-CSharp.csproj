@@ -91,6 +91,14 @@
      <Compile Include="Assets\Scripts\Behavioral Patterns\Subclass_Sandbox\GameController.cs" />
      <Compile Include="Assets\Scripts\Behavioral Patterns\Subclass_Sandbox\Superpower.cs" />
      <Compile Include="Assets\Scripts\Behavioral Patterns\Subclass_Sandbox\SkyLaunch.cs" />
+     <Compile Include="Assets\Scripts\Behavioral Patterns\Type_Object\Animals\Types\ICantFly.cs" />
+     <Compile Include="Assets\Scripts\Behavioral Patterns\Type_Object\Animals\Mammal.cs" />
+     <Compile Include="Assets\Scripts\Behavioral Patterns\Type_Object\Animals\Types\ICanFly.cs" />
+     <Compile Include="Assets\Scripts\TypeObject\Animal\Fish.cs" />
+     <Compile Include="Assets\Scripts\Behavioral Patterns\Type_Object\Animals\Animal.cs" />
+     <Compile Include="Assets\Scripts\Behavioral Patterns\Type_Object\Animals\Bird.cs" />
+     <Compile Include="Assets\Scripts\Behavioral Patterns\Type_Object\Animals\Types\IFlyingType.cs" />
+     <Compile Include="Assets\Scripts\Behavioral Patterns\Type_Object\TypeObjectController.cs" />
  <Reference Include="UnityEngine">
  <HintPath>N:/programms/ForProgramming/2020.1.0f1/2020.3.25f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
