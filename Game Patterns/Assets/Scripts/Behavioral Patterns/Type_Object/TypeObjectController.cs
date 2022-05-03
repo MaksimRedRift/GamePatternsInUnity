@@ -1,5 +1,4 @@
 using Behavioral_Patterns.Type_Object.Animals;
-using TypeObject.Animal;
 using UnityEngine;
 
 namespace Behavioral_Patterns.Type_Object

@@ -1,14 +1,14 @@
 using Behavioral_Patterns.Type_Object.Animals.Types;
 using UnityEngine;
 
-namespace TypeObject.Animal
+namespace Behavioral_Patterns.Type_Object.Animals
 {
-    public class Fish : Behavioral_Patterns.Type_Object.Animals.Animal
+    public class Fish : Animal
     {
         //This is the Type Object
         private readonly IFlyingType _flyingType;
 
-        public Fish(string name, bool canFly)
+        public Fish(string name, bool canFly)       
         {
             Name = name;
 
