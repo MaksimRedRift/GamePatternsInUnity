@@ -106,6 +106,11 @@
      <Compile Include="Assets\Scripts\Behavioral Patterns\Subclass_Sandbox\GameController.cs" />
      <Compile Include="Assets\Scripts\Decoupling Patterns\Command_Queue(Event Queue)\Commands\ThirdCmd.cs" />
      <Compile Include="Assets\Scripts\Sequencing Patterns\Game_Loop\ObjectWithCustomUpdateMethod.cs" />
+     <Compile Include="Assets\Scripts\Decoupling Patterns\Service_Locator\Audio_Service_Locator\Locator.cs" />
+     <Compile Include="Assets\Scripts\Decoupling Patterns\Service_Locator\Audio_Service_Locator\NullAudio.cs" />
+     <Compile Include="Assets\Scripts\Decoupling Patterns\Service_Locator\Audio_Service_Locator\ConsoleAudio.cs" />
+     <Compile Include="Assets\Scripts\Decoupling Patterns\Service_Locator\GameController.cs" />
+     <Compile Include="Assets\Scripts\Decoupling Patterns\Service_Locator\Audio_Service_Locator\Audio.cs" />
  <Reference Include="UnityEngine">
  <HintPath>N:/programms/ForProgramming/2020.1.0f1/2020.3.25f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
