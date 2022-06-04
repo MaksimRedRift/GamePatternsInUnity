@@ -64,6 +64,7 @@
      <Compile Include="Assets\Scripts\Decoupling Patterns\Service_Locator_Another_Implementation\GameController.cs" />
      <Compile Include="Assets\Scripts\Design patterns\Observer\Events\BoxEvents.cs" />
      <Compile Include="Assets\Scripts\Design patterns\State\IStationStateSwitcher.cs" />
+     <Compile Include="Assets\Scripts\Optimization Patterns\Spatial_Partition\Grid.cs" />
      <Compile Include="Assets\Scripts\Design patterns\Observer\Subject.cs" />
      <Compile Include="Assets\Scripts\Decoupling Patterns\Service_Locator_Another_Implementation\Services\SecondService.cs" />
      <Compile Include="Assets\Scripts\Design patterns\Prototype\Monsters\Demon.cs" />
@@ -79,7 +80,10 @@
      <Compile Include="Assets\Scripts\Decoupling Patterns\Command_Queue(Event Queue)\ICommand.cs" />
      <Compile Include="Assets\Scripts\Behavioral Patterns\Type_Object\Animals\Mammal.cs" />
      <Compile Include="Assets\Scripts\Design patterns\Command\Commands\FireCommand.cs" />
+     <Compile Include="Assets\Scripts\Optimization Patterns\Spatial_Partition\GameController.cs" />
+     <Compile Include="Assets\Scripts\Optimization Patterns\Spatial_Partition\Unit.cs" />
      <Compile Include="Assets\Scripts\Decoupling Patterns\Command_Queue(Event Queue)\GameController.cs" />
+     <Compile Include="Assets\Scripts\Factory Pattern\MobDescription.cs" />
      <Compile Include="Assets\Scripts\Behavioral Patterns\Bytecode\Instruction.cs" />
      <Compile Include="Assets\Scripts\Behavioral Patterns\Type_Object\Animals\Animal.cs" />
      <Compile Include="Assets\Scripts\Design patterns\Command\Command.cs" />
@@ -101,6 +105,7 @@
      <Compile Include="Assets\Scripts\Optimization Patterns\Object_Pool\Optimized\BulletObjectPoolOptimized.cs" />
      <Compile Include="Assets\Scripts\Design patterns\State\StationBehaviour.cs" />
      <Compile Include="Assets\Scripts\Sequencing Patterns\Game_Loop\UpdateableComponent.cs" />
+     <Compile Include="Assets\Scripts\Factory Pattern\MobDescriptions.cs" />
      <Compile Include="Assets\Scripts\Optimization Patterns\Object_Pool\Slow\MoveBullet.cs" />
      <Compile Include="Assets\Scripts\Decoupling Patterns\Service_Locator_Another_Implementation\Services\FirstService.cs" />
      <Compile Include="Assets\Scripts\Decoupling Patterns\Service_Locator\Audio_Service_Locator\Audio.cs" />
@@ -121,9 +126,9 @@
      <Compile Include="Assets\Scripts\Decoupling Patterns\Command_Queue(Event Queue)\Commands\ThirdCmd.cs" />
      <Compile Include="Assets\Scripts\Optimization Patterns\Object_Pool\Slow\BulletObjectPool.cs" />
      <Compile Include="Assets\Scripts\Sequencing Patterns\Game_Loop\ObjectWithCustomUpdateMethod.cs" />
-     <Compile Include="Assets\Scripts\Optimization Patterns\Spatial_Partition\Unit.cs" />
-     <Compile Include="Assets\Scripts\Optimization Patterns\Spatial_Partition\GameController.cs" />
-     <Compile Include="Assets\Scripts\Optimization Patterns\Spatial_Partition\Grid.cs" />
+     <Compile Include="Assets\Scripts\Factory Pattern\MobModel.cs" />
+     <Compile Include="Assets\Scripts\Factory Pattern\Factory.cs" />
+     <Compile Include="Assets\Scripts\Factory Pattern\GameManager.cs" />
  <Reference Include="UnityEngine">
  <HintPath>N:/programms/ForProgramming/2020.1.0f1/2020.3.25f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
